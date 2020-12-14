@@ -3,7 +3,7 @@ function incluirProduto() {
 
     var nome = inNome.value;
 
-    if (nome == "" ) {
+    if (nome == " " ) {
       alert("Informe nome do produto"); 
       inNome.focus(); 
       return; }
